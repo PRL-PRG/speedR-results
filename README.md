@@ -22,12 +22,15 @@ this repository; they keep their own licences in
 ```
 runs/<machine>/<impl>/<version>/<config>/<run_id>/
     meta.json            what was run, how, and where (schema below)
-    samples.csv.gz       one row per benchmark process
-    profile.csv.gz       category shares per benchmark (when profiled)
-    symbols.csv.gz       top innermost-classified and unclassified symbols
+    samples.csv          one row per benchmark process
+    profile.csv          category shares per benchmark (when profiled)
+    symbols.csv          top innermost-classified and unclassified symbols
     sentinel.json        the session's sentinel benchmark result
 index/                   tables derived from runs/, read by the dashboard
 ```
+
+Files are stored uncompressed: git compresses them itself, and storing them
+compressed would stop it from storing only the differences between versions.
 
 - `machine` is a concrete box (e.g. `prl-bench-x64-1`). **Times are only
   comparable within one machine.**
@@ -50,8 +53,8 @@ method, doctor report) and the sentinel result.
 | `benchmarks.csv` | benchmark | id (`suite/name`), suite, name, min_version |
 | `events.csv` | machine change | machine, date, event (kernel, firmware, toolchain updates) |
 | `unsupported.csv` | benchmark that cannot run | machine, impl, version, config, benchmark, reason |
-| `samples.csv.gz` | benchmark process | run, benchmark, process, time_ms (median iteration), gc_ms, max_rss_mb |
-| `profiles.csv.gz` | benchmark × category | run, benchmark, category, share (of perf samples in `execute()`) |
+| `samples.csv` | benchmark process | run, benchmark, process, time_ms (median iteration), gc_ms, max_rss_mb |
+| `profiles.csv` | benchmark × category | run, benchmark, category, share (of perf samples in `execute()`) |
 
 A run marked `suspect` failed its sentinel check (the machine was more than 3%
 off its recent median); its results are published but excluded from change
