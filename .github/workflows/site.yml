@@ -1,0 +1,60 @@
+# Render speedR's dashboard from the results on every push to `results`, and
+# publish it on GitHub Pages. Runs on GitHub-hosted runners only.
+name: site
+
+on:
+  push:
+    branches: [results]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # the speedR whose dashboard renders these results
+  SPEEDR_REF: results-pipeline
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: results
+          path: results
+      - uses: actions/checkout@v7
+        with:
+          repository: PRL-PRG/speedR
+          ref: ${{ env.SPEEDR_REF }}
+          path: speedR
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          working-directory: speedR/site
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.11.9
+      - name: Render (one site per methodology version with results)
+        run: SPEEDR_RESULTS_ROOT="$GITHUB_WORKSPACE/results" speedR/site/render.sh
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: speedR/site/_site
+
+  deploy:
+    needs: render
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5
