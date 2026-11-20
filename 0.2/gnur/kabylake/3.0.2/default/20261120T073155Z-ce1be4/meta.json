@@ -1,0 +1,116 @@
+{
+ "schema_version": 1,
+ "run_id": "20261120T073155Z-ce1be4",
+ "methodology": "0.2",
+ "machine": "kabylake",
+ "impl": "gnur",
+ "version": "3.0.2",
+ "kind": "release",
+ "svn_rev": null,
+ "config": "default",
+ "build": {
+  "id": "1cead7e9ea77156d",
+  "source": "956e05ad60447955049285420b5a48e0526aa4db676fd9eadb4bcfb7ccdc024b",
+  "flags": {
+   "package": "clusterGeneration_1.3.1.tar.gz",
+   "configure": "R defaults (./configure --prefix only)",
+   "CC": "gcc -fpermissive -std=gnu89 -fcommon",
+   "CXX": "g++",
+   "FC": "gfortran -fallow-argument-mismatch",
+   "F77": "gfortran -fallow-argument-mismatch",
+   "r_cv_have_curl722": "yes",
+   "r_cv_have_curl728": "yes"
+  },
+  "toolchain": "sha256:933e58c9fa5a33645ce44a41940987952ff231f4ce247ba9b10879c12e5b6df4",
+  "source_date": "2013-09-25"
+ },
+ "suite": {
+  "repo": "https://github.com/PRL-PRG/r-benchmarks",
+  "commit": "86c5182ce98e9380734d4557283c73e1984e061e",
+  "bench_commit": "139ab198a8b663aeef09531fa29f906053a86173",
+  "speedr_commit": "6eee441e67ef84f17608c330c9176a72311bbbfa",
+  "benchmarks": 118
+ },
+ "run_design": {
+  "runs": 3,
+  "iterations": 5,
+  "warmups": 1,
+  "cpuset": "3",
+  "aslr": false
+ },
+ "host": {
+  "node": "prl-prg-bench3-ubuntu",
+  "kernel": "7.0.0-43-generic",
+  "cmdline": "BOOT_IMAGE=/boot/vmlinuz-7.0.0-43-generic root=UUID=0cf501a1-cf32-4d7c-a911-e522fb3ff286 ro consoleblank=3600 isolcpus=domain,managed_irq,3 nohz_full=3 rcu_nocbs=3 irqaffinity=0-2 panic=10",
+  "os_release": "Ubuntu 26.04.1 LTS",
+  "boot_id": "9dc2b16b-47ee-4f54-aced-4993cdbd8f5f",
+  "uptime_s": 24935.54,
+  "slurm_job": "20",
+  "fingerprint": {
+   "timestamp": "2026-11-20T07:33:02+00:00",
+   "hostname": "06bb91fb5937",
+   "system": "Linux",
+   "release": "7.0.0-43-generic",
+   "machine": "x86_64",
+   "python_version": "3.14.4",
+   "load_avg": [
+    1.02490234375,
+    1.01025390625,
+    1.0
+   ],
+   "niceness": 0,
+   "logical_cpus": 4,
+   "cpu_model": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz",
+   "physical_cpus": 4,
+   "governors": [
+    "performance"
+   ],
+   "turbo_enabled": false,
+   "aslr": 0,
+   "transparent_hugepage": "never",
+   "smt_enabled": false,
+   "swappiness": 60,
+   "swap_in_use": false,
+   "perf_event_paranoid": 1
+  },
+  "probe": {
+   "node": "prl-prg-bench3-ubuntu",
+   "status": "ok",
+   "deviation": 0.0075,
+   "values": {
+    "stream_ms": 13.21,
+    "dram_ns": 79.878,
+    "alu_ns": 1.6497,
+    "l2_ns": 2.0887
+   },
+   "reference": {
+    "stream_ms": 13.31,
+    "dram_ns": 79.82,
+    "alu_ns": 1.6497,
+    "l2_ns": 2.0887
+   }
+  }
+ },
+ "started": "2026-11-20T07:31:55Z",
+ "finished": "2026-11-20T09:59:38Z",
+ "passes": [
+  "timing"
+ ],
+ "sentinel": {
+  "version": "4.5.2",
+  "times_ms": {
+   "R-benchmark-25/Programmation/att3_1": 879.724,
+   "shootout/nbody/nbody": 724.237,
+   "areWeFast/bounce": 982.872,
+   "mathkernel/DoubleVecAdd-T1": 1132.835
+  },
+  "reference_ms": {
+   "areWeFast/bounce": 979.2,
+   "shootout/nbody/nbody": 723.0,
+   "mathkernel/DoubleVecAdd-T1": 1134.1,
+   "R-benchmark-25/Programmation/att3_1": 881.4
+  },
+  "deviation": 0.00061,
+  "status": "ok"
+ }
+}

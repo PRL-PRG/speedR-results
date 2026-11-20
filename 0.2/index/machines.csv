@@ -1,2 +1,2 @@
 machine,os,arch,cpu,kernel,toolchain,profiler,profiles,wake,first_version
-kabylake,linux,x86_64,"Intel Core i7-7700K at a fixed 4.2 GHz (turbo and SMT off), 32 GB",Linux 7.0.0-43-generic (Ubuntu 26.04.1 LTS),"GCC 16 (gcc:16), R's own BLAS; image sha256:933e58c9fa5a…",perf,validated,wol,3.2.3
+kabylake,linux,x86_64,"Intel Core i7-7700K at a fixed 4.2 GHz (turbo and SMT off), 32 GB",Linux 7.0.0-43-generic (Ubuntu 26.04.1 LTS),"GCC 16 (gcc:16), R's own BLAS; image sha256:933e58c9fa5a…",perf,validated,wol,3.0.2
