@@ -3,5 +3,6 @@ run,methodology,machine,impl,version,kind,config,date,svn_rev,suspect,sentinel_d
 20261124T161207Z-8b47f6,0.5,kabylake,gnur,3.2.3,release,default,2015-12-10,,FALSE,-0.00231,117,117,prl-prg-bench4-ubuntu,2026-11-24T16:12:07Z,ok,ok,0
 20261124T145203Z-092fa1,0.5,kabylake,gnur,3.4.4,release,default,2018-03-15,,FALSE,-0.00338,117,117,prl-prg-bench4-ubuntu,2026-11-24T14:52:03Z,ok,ok,0
 20261124T121138Z-5305af,0.5,kabylake,gnur,3.6.3,release,default,2020-02-29,,FALSE,-0.00216,117,117,prl-prg-bench4-ubuntu,2026-11-24T12:11:38Z,ok,ok,0
+20261124T182509Z-32979e,0.5,kabylake,gnur,4.1.2,release,default,2021-11-01,,FALSE,-0.0019,117,117,prl-prg-bench4-ubuntu,2026-11-24T18:25:09Z,ok,ok,0
 20261124T133143Z-9024b3,0.5,kabylake,gnur,4.3.3,release,default,2024-02-29,,FALSE,-0.00101,117,117,prl-prg-bench4-ubuntu,2026-11-24T13:31:43Z,ok,ok,0
 20261124T021453Z-f6de91,0.5,kabylake,gnur,4.5.2,release,default,2025-10-31,,FALSE,-0.00114,117,117,prl-prg-bench4-ubuntu,2026-11-24T02:14:53Z,ok,ok,0
