@@ -1,4 +1,5 @@
 run,methodology,machine,impl,version,kind,config,date,svn_rev,suspect,sentinel_drift,n_ok,n_total,node,started,sentinel_status,probe_status,thermal_suspect
 20261124T033348Z-f05ec1,0.5,kabylake,gnur,3.0.2,release,default,2013-09-25,,FALSE,-0.0026,117,117,prl-prg-bench4-ubuntu,2026-11-24T03:33:48Z,ok,ok,0
 20261124T121138Z-5305af,0.5,kabylake,gnur,3.6.3,release,default,2020-02-29,,FALSE,-0.00216,117,117,prl-prg-bench4-ubuntu,2026-11-24T12:11:38Z,ok,ok,0
+20261124T133143Z-9024b3,0.5,kabylake,gnur,4.3.3,release,default,2024-02-29,,FALSE,-0.00101,117,117,prl-prg-bench4-ubuntu,2026-11-24T13:31:43Z,ok,ok,0
 20261124T021453Z-f6de91,0.5,kabylake,gnur,4.5.2,release,default,2025-10-31,,FALSE,-0.00114,117,117,prl-prg-bench4-ubuntu,2026-11-24T02:14:53Z,ok,ok,0
