@@ -12,7 +12,7 @@ permissions:
 
 env:
   # the speedR whose dashboard renders these results
-  SPEEDR_REF: results-pipeline
+  SPEEDR_REF: methodology-0.5
 
 concurrency:
   group: pages
