@@ -1,0 +1,135 @@
+benchmark,recording,cause,leaf_sym,leaf_dso,samples,share
+R-benchmark-25/Programmation/att3_5,3,unresolved stack,[unknown],[unknown],1,0.0016778523489932886
+R-benchmark-25/Programmation/att3_5,4,unresolved stack,[unknown],[unknown],1,0.0016778523489932886
+RealThing/flexclust,2,unresolved stack,[unknown],[unknown],1,1.0251153254741159e-4
+RealThing/flexclust,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,1.0194719135487817e-4
+RealThing/flexclust,5,truncated unwind,[unknown],[unknown],1,1.0239606799098914e-4
+RealThing/flexclust_no_s4,1,"R frames, no rule matched",[unknown],[unknown],1,1.183011948420679e-4
+RealThing/flexclust_no_s4,5,truncated unwind,[unknown],[unknown],1,1.180776951233912e-4
+SpeedTest/prg/Qlearn,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0011210762331838565
+SpeedTest/prg/Qlearn,5,unresolved stack,[unknown],[unknown],1,0.001122334455667789
+SpeedTest/prg/cholesky,1,unresolved stack,[unknown],[unknown],1,6.377551020408163e-4
+SpeedTest/prg/cholesky,3,unresolved stack,[unknown],[unknown],1,6.385696040868455e-4
+SpeedTest/prg/cholesky,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,6.393861892583121e-4
+SpeedTest/prg/cv-basisfun,2,unresolved stack,[unknown],[unknown],1,0.0014749262536873156
+SpeedTest/prg/cv-basisfun,3,truncated unwind,[unknown],[unknown],1,0.0014749262536873156
+SpeedTest/prg/cv-basisfun,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014792899408284023
+SpeedTest/prg/data,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,13,0.0028193450444589027
+SpeedTest/prg/data,1,truncated unwind,__mbrtowc,/usr/lib/x86_64-linux-gnu/libc.so.6,2,4.3374539145521576e-4
+SpeedTest/prg/data,2,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,5,0.001081548777849881
+SpeedTest/prg/data,2,truncated unwind,__mbrtowc,/usr/lib/x86_64-linux-gnu/libc.so.6,2,4.3261951113995244e-4
+SpeedTest/prg/data,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,12,0.002602472348731295
+SpeedTest/prg/data,3,truncated unwind,__mbrtowc,/usr/lib/x86_64-linux-gnu/libc.so.6,3,6.506180871828237e-4
+SpeedTest/prg/data,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,8,0.0017353579175704988
+SpeedTest/prg/data,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,9,0.001949740034662045
+SpeedTest/prg/data,5,truncated unwind,__mbrtowc,/usr/lib/x86_64-linux-gnu/libc.so.6,2,4.332755632582322e-4
+SpeedTest/prg/data,5,truncated unwind,[unknown],[unknown],1,2.166377816291161e-4
+SpeedTest/prg/gcd,4,truncated unwind,[unknown],[unknown],1,2.378686964795433e-4
+SpeedTest/prg/gp,4,truncated unwind,[unknown],[unknown],1,0.001034126163391934
+SpeedTest/prg/heat,2,truncated unwind,[unknown],[unknown],1,0.001567398119122257
+SpeedTest/prg/hmc/hmc1,3,truncated unwind,[unknown],[unknown],1,9.380863039399625e-4
+SpeedTest/prg/hmc/hmc1,5,unresolved stack,[unknown],[unknown],1,9.45179584120983e-4
+SpeedTest/prg/hmc/hmc2,2,unresolved stack,[unknown],[unknown],1,7.363770250368188e-4
+SpeedTest/prg/hmc/hmc2,3,"R frames, no rule matched",[unknown],[unknown],1,7.390983000739098e-4
+SpeedTest/prg/hmc/hmc2,5,unresolved stack,[unknown],[unknown],1,7.396449704142012e-4
+SpeedTest/prg/kernel-PCA,2,"R frames, no rule matched",[unknown],[unknown],1,0.00186219739292365
+SpeedTest/prg/kernel-PCA,3,truncated unwind,[unknown],[unknown],1,0.00186219739292365
+SpeedTest/prg/matexp/matexp_medium,2,unresolved stack,[unknown],[unknown],1,9.372071227741331e-4
+SpeedTest/prg/matexp/matexp_medium,5,unresolved stack,[unknown],[unknown],2,0.001876172607879925
+SpeedTest/prg/matexp/matexp_medium,5,"R frames, no rule matched",[unknown],[unknown],1,9.380863039399625e-4
+SpeedTest/prg/matexp/matexp_small,2,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,6.648936170212766e-4
+SpeedTest/prg/matexp/matexp_small,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,0.0013315579227696406
+SpeedTest/prg/matexp/matexp_small,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,0.0013271400132714001
+SpeedTest/prg/matexp/matexp_small,5,"R frames, no rule matched",[unknown],[unknown],1,6.5359477124183e-4
+SpeedTest/prg/matexp/matexp_small,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,6.5359477124183e-4
+SpeedTest/prg/matexp/matexp_small,5,unresolved stack,[unknown],[unknown],1,6.5359477124183e-4
+SpeedTest/prg/matmult/matmult_sumprd,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0013020833333333333
+SpeedTest/prg/matmult/matmult_sumprd,2,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0012987012987012987
+SpeedTest/prg/matmult/matmult_sumprd,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0012987012987012987
+SpeedTest/prg/matmult/matmult_sumprd,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0012970168612191958
+SpeedTest/prg/mlp,2,unresolved stack,[unknown],[unknown],1,0.0017123287671232876
+SpeedTest/prg/mlp,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0017064846416382253
+SpeedTest/prg/mlp,4,unresolved stack,[unknown],[unknown],1,0.0017123287671232876
+SpeedTest/prg/mlp,5,truncated unwind,[unknown],[unknown],1,0.0017152658662092624
+SpeedTest/prg/near/near_large,1,unresolved stack,[unknown],[unknown],1,1.952362358453729e-4
+SpeedTest/prg/near/near_large,3,unresolved stack,[unknown],[unknown],2,3.920031360250882e-4
+SpeedTest/prg/near/near_large,4,unresolved stack,[unknown],[unknown],1,1.9565642731363725e-4
+SpeedTest/prg/near/near_large,5,unresolved stack,[unknown],[unknown],2,3.9093041438623924e-4
+SpeedTest/prg/near/near_small,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,0.0013966480446927375
+SpeedTest/prg/primes,5,truncated unwind,[unknown],[unknown],1,9.31098696461825e-4
+SpeedTest/prg/sieve/sieve1,1,truncated unwind,[unknown],[unknown],1,8.756567425569177e-4
+SpeedTest/prg/text/text_replace,2,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,1.945525291828794e-4
+SpeedTest/prg/text/text_replace,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,3.894080996884735e-4
+SpeedTest/prg/text/text_replace,3,truncated unwind,[unknown],[unknown],1,1.9470404984423675e-4
+SpeedTest/prg/text/text_replace,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,1.950458357714063e-4
+SpeedTest/prg/text/text_replace,4,truncated unwind,[unknown],[unknown],1,1.950458357714063e-4
+SpeedTest/prg/text/text_replace,4,truncated unwind,__mbrtowc,/usr/lib/x86_64-linux-gnu/libc.so.6,1,1.950458357714063e-4
+SpeedTest/prg/text/text_replace,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,3.9115978877371407e-4
+areWeFast/bounce,4,"R frames, no rule matched",[unknown],[unknown],1,0.0010362694300518134
+areWeFast/bounce_nonames_simple,4,truncated unwind,[unknown],[unknown],1,0.0013908205841446453
+areWeFast/storage,2,truncated unwind,[unknown],[unknown],3,0.00141643059490085
+areWeFast/storage,3,truncated unwind,[unknown],[unknown],3,0.0013992537313432835
+areWeFast/storage,4,truncated unwind,[unknown],[unknown],3,0.0014124293785310734
+areWeFast/storage,5,truncated unwind,[unknown],[unknown],6,0.002824858757062147
+mathkernel/MMM-T2,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,3.705075954057058e-4
+mathkernel/MMM-T2,1,unresolved stack,[unknown],[unknown],1,1.852537977028529e-4
+mathkernel/MMM-T2,2,truncated unwind,[unknown],[unknown],1,1.8515089798185522e-4
+mathkernel/MMM-T2,3,unresolved stack,[unknown],[unknown],1,1.8518518518518518e-4
+mathkernel/MMM-T2,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,3,5.554526939455656e-4
+mathkernel/MMM-T2,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,3,5.550416281221092e-4
+mathkernel/MMM-T2,5,unresolved stack,[unknown],[unknown],1,1.8501387604070305e-4
+misc/2DRandomWalk/rw2d1,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,2,0.0013333333333333333
+riposte/black_scholes,1,truncated unwind,[unknown],[unknown],1,0.0011389521640091116
+riposte/black_scholes,5,"R frames, no rule matched",[unknown],[unknown],1,0.0011363636363636363
+riposte/lr_test,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0010940919037199124
+shootout/binarytrees/binarytrees,5,"R frames, no rule matched",[unknown],[unknown],1,7.272727272727272e-4
+shootout/fannkuch/fannkuchredux,2,truncated unwind,[unknown],[unknown],1,4.6707146193367583e-4
+shootout/fannkuch/fannkuchredux,4,truncated unwind,[unknown],[unknown],1,4.6728971962616824e-4
+shootout/fasta/fasta,1,truncated unwind,[unknown],[unknown],1,0.0011976047904191617
+shootout/fasta/fasta_2,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0012953367875647669
+shootout/fasta/fasta_2,5,unresolved stack,[unknown],[unknown],1,0.0012953367875647669
+shootout/fasta/fasta_3,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014144271570014145
+shootout/fasta/fasta_naive,3,truncated unwind,[unknown],[unknown],1,0.0011750881316098707
+shootout/fasta/fasta_naive,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.001176470588235294
+shootout/fastaredux/fastaredux,1,unresolved stack,[unknown],[unknown],1,0.001256281407035176
+shootout/fastaredux/fastaredux,3,truncated unwind,[unknown],[unknown],1,0.001256281407035176
+shootout/fastaredux/fastaredux,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0012594458438287153
+shootout/fastaredux/fastaredux,5,unresolved stack,[unknown],[unknown],1,0.0012594458438287153
+shootout/fastaredux/fastaredux_naive,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0012360939431396785
+shootout/knucleotide/knucleotide,1,never entered R (other object),"icu_78::UIterCollationIterator::handleNextCE32(int&, UErrorCode&)",/usr/lib/x86_64-linux-gnu/libicui18n.so.78.2,1,0.0015037593984962407
+shootout/knucleotide/knucleotide,1,truncated unwind,[unknown],[unknown],1,0.0015037593984962407
+shootout/knucleotide/knucleotide,3,never entered R (other object),[unknown],/usr/lib/x86_64-linux-gnu/libicui18n.so.78.2,1,0.0015015015015015015
+shootout/knucleotide/knucleotide,3,never entered R (other object),"icu_78::UIterCollationIterator::handleNextCE32(int&, UErrorCode&)",/usr/lib/x86_64-linux-gnu/libicui18n.so.78.2,1,0.0015015015015015015
+shootout/knucleotide/knucleotide,4,never entered R (other object),[unknown],/usr/lib/x86_64-linux-gnu/libicui18n.so.78.2,1,0.0015015015015015015
+shootout/knucleotide/knucleotide,4,never entered R (other object),"icu_78::UIterCollationIterator::handleNextCE32(int&, UErrorCode&)",/usr/lib/x86_64-linux-gnu/libicui18n.so.78.2,1,0.0015015015015015015
+shootout/knucleotide/knucleotide,5,never entered R (other object),"icu_78::UIterCollationIterator::handleNextCE32(int&, UErrorCode&)",/usr/lib/x86_64-linux-gnu/libicui18n.so.78.2,1,0.0015151515151515152
+shootout/knucleotide/knucleotide_brute,5,truncated unwind,[unknown],[unknown],1,2.938583602703497e-4
+shootout/knucleotide/knucleotide_brute_2,5,unresolved stack,[unknown],[unknown],1,2.2237046920169e-4
+shootout/knucleotide/knucleotide_brute_3,1,truncated unwind,[unknown],[unknown],1,3.694126339120798e-4
+shootout/mandelbrot/mandelbrot_noout,2,never entered R (other object),[unknown],/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0,1,3.0703101013202335e-4
+shootout/mandelbrot/mandelbrot_noout_naive,2,unresolved stack,[unknown],[unknown],1,2.4108003857280618e-4
+shootout/mandelbrot/mandelbrot_noout_naive,3,truncated unwind,[unknown],[unknown],1,2.4125452352231604e-4
+shootout/nbody/nbody,1,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014992503748125937
+shootout/nbody/nbody,2,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014771048744460858
+shootout/nbody/nbody,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014970059880239522
+shootout/nbody/nbody,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.001483679525222552
+shootout/nbody/nbody,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014903129657228018
+shootout/nbody/nbody_2,2,unresolved stack,[unknown],[unknown],1,0.0015479876160990713
+shootout/nbody/nbody_2,4,"R frames, no rule matched",[unknown],[unknown],1,0.0015432098765432098
+shootout/nbody/nbody_2,4,never entered R (other object),[unknown],/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0,1,0.0015432098765432098
+shootout/nbody/nbody_3,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,7.530120481927711e-4
+shootout/nbody/nbody_3,4,"R frames, no rule matched",[unknown],[unknown],1,7.485029940119761e-4
+shootout/nbody/nbody_naive,3,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0010638297872340426
+shootout/nbody/nbody_naive,4,"R frames, no rule matched",[unknown],[unknown],1,0.0010626992561105207
+shootout/pidigits/pidigits,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,5.847953216374269e-4
+shootout/reversecomplement/reversecomplement,2,truncated unwind,[unknown],[unknown],1,0.0013351134846461949
+shootout/reversecomplement/reversecomplement,3,unresolved stack,[unknown],[unknown],1,0.0013422818791946308
+shootout/reversecomplement/reversecomplement,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.001336898395721925
+shootout/reversecomplement/reversecomplement,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0013404825737265416
+shootout/reversecomplement/reversecomplement_2,1,unresolved stack,[unknown],[unknown],1,0.001430615164520744
+shootout/reversecomplement/reversecomplement_2,2,unresolved stack,[unknown],[unknown],1,0.0014367816091954023
+shootout/reversecomplement/reversecomplement_2,4,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.001430615164520744
+shootout/reversecomplement/reversecomplement_2,4,unresolved stack,[unknown],[unknown],1,0.001430615164520744
+shootout/reversecomplement/reversecomplement_2,5,never entered R (libc / linker),[unknown],/usr/lib/x86_64-linux-gnu/libc.so.6,1,0.0014388489208633094
+shootout/reversecomplement/reversecomplement_naive,3,unresolved stack,[unknown],[unknown],1,0.001564945226917058
+shootout/spectralnorm/spectralnorm,5,"R frames, no rule matched",[unknown],[unknown],1,0.0010775862068965517
